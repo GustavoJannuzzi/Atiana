@@ -23,10 +23,7 @@ st.set_page_config(
     page_title=("Estratégias Quantitativas")
 )
 
-
-st.title("Estratégias Quantitativas")
-
-if "my_input" not in st.session_state:
-    st.session_state["my_input"] = ""
-
-st. subheader("Olha essa merda")
+selected2 = option_menu(None, ["Home", "Upload", "Tasks", 'Settings'], 
+    icons=['house', 'cloud-upload', "list-task", 'gear'], 
+    menu_icon="cast", default_index=0, orientation="horizontal")
+selected2
