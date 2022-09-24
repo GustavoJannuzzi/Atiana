@@ -11,7 +11,7 @@ st.set_page_config(
     page_title=("Estratégias Quantitativas")
 )
 
-selected2 = option_menu(None, ["Home", "Upload", "Tasks", 'Settings'], 
-    icons=['house', 'cloud-upload', "list-task", 'gear'], 
+selected2 = option_menu(None, ["Home", "Fundamentalistas", "Epeculativas", 'Estudos'], 
+    icons=['house', 'cloud-upload', "list-task", 'book'], 
     menu_icon="cast", default_index=0, orientation="horizontal")
 selected2
