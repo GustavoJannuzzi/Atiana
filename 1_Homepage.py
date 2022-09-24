@@ -20,7 +20,7 @@ selected2 = option_menu(None, ["Home", "Value-invest", "Epeculativa", 'Estudos']
     menu_icon="cast", default_index=0, orientation="horizontal")
 selected2
 
-if selected2 = "Epeculativa":
+if selected2 == "Epeculativa":
     # Aplicão de regressão linear das ações que compoem o índice bovespa
 
     # import libraries
