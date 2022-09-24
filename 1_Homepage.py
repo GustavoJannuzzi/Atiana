@@ -33,8 +33,8 @@ if selected2 == "Value-invest":
        st.image("imagens/joel_greenblat_mf.png")
 
     with col2:
-       st.header("A dog")
-       st.image("https://static.streamlit.io/examples/dog.jpg")
+       st.header("Quantamental - value investig")
+       st.image("imagens/value_invest.png")
 
     with col3:
        st.header("An owl")
