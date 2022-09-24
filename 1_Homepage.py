@@ -37,7 +37,7 @@ if selected2 == "Value-invest":
        st.image("imagens/value_invest.png")
 
     with col3:
-       st.header("An owl")
+       st.header("corujinha")
        st.image("https://static.streamlit.io/examples/owl.jpg")
 
 # ESPECULATIVA - PAGE #
