@@ -107,7 +107,6 @@ if selected2 == "Value-invest":
     MagicWallet = filtroSetores.sort_values(by = 'score').head(QtdStocks)
 
     Clickerd = st.button("RUN THE MAGIC")
-    st.title("Magic Formula - B3")
 
     if Clickerd:
         st.dataframe(MagicWallet)
