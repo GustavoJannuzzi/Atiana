@@ -19,6 +19,9 @@ import pandas as pd
 #    )
 
 #Navigation bar
+import streamlit as st
+import pandas as pd
+
 st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
 
 st.markdown("""
@@ -42,6 +45,25 @@ st.markdown("""
   </div>
 </nav>
 """, unsafe_allow_html=True)
+
+st.markdown('''# **Binance Price App**
+A simple cryptocurrency price app pulling price data from *Binance API*.
+''')
+
+st.header('**Selected Price**')
+
+# Load market data from Binance API
+df = pd.read_json('https://api.binance.com/api/v3/ticker/24hr')
+
+# Custom function for rounding values
+def round_value(input_value):
+    if input_value.values > 1:
+        a = float(round(input_value, 2))
+    else:
+        a = float(round(input_value, 8))
+    return a
+
+col1, col2, col3 = st.columns(3)
 
 
 # Menu Horizontal
