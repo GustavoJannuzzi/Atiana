@@ -27,6 +27,7 @@ if selected2 == "Home":
 
 # VALUE-INVEST - PAGE #
 if selected2 == "Value-invest":
+    col1, col2, col3 = st.columns(3)
     with col1:
        st.header("A cat")
        st.image("https://static.streamlit.io/examples/cat.jpg")
@@ -41,6 +42,7 @@ if selected2 == "Value-invest":
 
 # ESPECULATIVA - PAGE #
 if selected2 == "Epeculativa":
+    col1, col2, col3 = st.columns(3)
     with col1:
        st.header("A cat")
        st.image("https://static.streamlit.io/examples/cat.jpg")
