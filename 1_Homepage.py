@@ -52,7 +52,7 @@ if selected2 == "Epeculativa":
        st.image("imagens/news_sent_anal.png")
 
     with col3:
-       st.header("Reg. linear sobre as TOP 50 ações do IBOV")
+       st.header("L.R. 50 ações do IBOV")
        st.image("imagens/top50_ibov_lin_reg.png")
     
 # VALUE-INVEST - PAGE #
