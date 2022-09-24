@@ -34,7 +34,6 @@ if selected2 == "Epeculativa":
     from bs4 import BeautifulSoup
     import yfinance as yf
     import streamlit as st
-    import cufflinks as cf
     import datetime
 
 
