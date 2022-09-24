@@ -29,8 +29,8 @@ if selected2 == "Home":
 if selected2 == "Value-invest":
     col1, col2, col3 = st.columns(3)
     with col1:
-       st.header("A cat")
-       st.image("imagens/1.png")
+       st.header("Joel Greenblatt - Magic Formula")
+       st.image("imagens/joel_greenblat_mf.png")
 
     with col2:
        st.header("A dog")
@@ -44,16 +44,16 @@ if selected2 == "Value-invest":
 if selected2 == "Epeculativa":
     col1, col2, col3 = st.columns(3)
     with col1:
-       st.header("A cat")
-       st.image("https://static.streamlit.io/examples/cat.jpg")
+       st.header("Momentum Strategy")
+       st.image("imagens/momentum.png")
 
     with col2:
-       st.header("A dog")
-       st.image("https://static.streamlit.io/examples/dog.jpg")
+       st.header("Notícias, NLP e O Mercado")
+       st.image("imagens/news_sent_anal.png")
 
     with col3:
-       st.header("An owl")
-       st.image("https://static.streamlit.io/examples/owl.jpg")
+       st.header("Reg. linear sobre as TOP 50 ações do IBOV")
+       st.image("imagens/top50_ibov_lin_reg.png")
     
 # VALUE-INVEST - PAGE #
 if selected2 == "Estudos":
