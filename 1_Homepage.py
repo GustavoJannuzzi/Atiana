@@ -12,6 +12,6 @@ st.set_page_config(
 )
 
 selected2 = option_menu(None, ["Home", "Fundamentalistas", "Epeculativas", 'Estudos'], 
-    icons=['house', 'cloud-upload', "list-task", 'book'], 
+    icons=['house', 'bar-chart', "dice-3-fill", 'book'], 
     menu_icon="cast", default_index=0, orientation="horizontal")
 selected2
