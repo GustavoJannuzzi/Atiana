@@ -23,7 +23,7 @@ selected2
 
 # HOME - PAGE #
 if selected2 == "Home":
-    streamlit.title('Home-page')
+    streamlit.title("Home-page")
 
 # VALUE-INVEST - PAGE #
 if selected2 == "Value-invest":
