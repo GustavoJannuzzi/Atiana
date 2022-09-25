@@ -37,7 +37,7 @@ if selected2 == "Value-invest":
        st.image("imagens/value_invest.png")
        st. markdown("A Magic Formula consiste em um procedimento de escolha de ações que consiste em selecionar ativos com bons fundamentos econômicos e que estão sendo negociados a um preço baixo.")
        st.markdown("    1. Avalie o “rendimento de ganhos”. Isso significa que você precisa analisar se o preço da ação é um bom negócio. Isso pode ser feito calculando o lucro operacional e o preço da empresa para a qual a análise está sendo realizada;")
-       st.markdown"     2. Avalie o “retorno sobre o capital” ou ROIC. O retorno sobre o capital pode ser entendido como uma das métricas fundamentais que indicam a capacidade de uma empresa gerar lucros.")
+       st.markdown("    2. Avalie o “retorno sobre o capital” ou ROIC. O retorno sobre o capital pode ser entendido como uma das métricas fundamentais que indicam a capacidade de uma empresa gerar lucros.")
         
 
 # ESPECULATIVA - PAGE #
