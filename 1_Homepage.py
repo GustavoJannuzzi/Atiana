@@ -31,14 +31,26 @@ if selected2 == "Value-invest":
     with col1:
        st.header("Joel Greenblatt - Magic Formula")
        st.image("imagens/joel_greenblat_mf.png")
+       st.markdown("A Magic Formula consiste em um procedimento de escolha de ações que consiste em selecionar ativos com bons fundamentos econômicos e que estão sendo negociados a um preço baixo.")
+       st.markdown("A formula consiste em gerar um ranking de ações com melhor ROIC e melhor EV/EBIT.")
+       st.markdown("Veja mais sobre como a Magic Formula Funciona e quais ações ela selecionaria agora.")
+       st.buttom("Magic Formula")
+       st.write(f'''
+            <a target="_self" href="https://www.gustavojannuzziportfolio.com/projects">
+                <button>
+                    Please login via Google
+                </button>
+            </a>
+            ''',
+            unsafe_allow_html=True
+        )
+
+        
 
     with col2:
        st.header("Quantamental - value investig")
        st.image("imagens/value_invest.png")
-       st. markdown("A Magic Formula consiste em um procedimento de escolha de ações que consiste em selecionar ativos com bons fundamentos econômicos e que estão sendo negociados a um preço baixo.")
-       st.markdown("    1. Avalie o “rendimento de ganhos”. Isso significa que você precisa analisar se o preço da ação é um bom negócio. Isso pode ser feito calculando o lucro operacional e o preço da empresa para a qual a análise está sendo realizada;")
-       st.markdown("    2. Avalie o “retorno sobre o capital” ou ROIC. O retorno sobre o capital pode ser entendido como uma das métricas fundamentais que indicam a capacidade de uma empresa gerar lucros.")
-        
+
 
 # ESPECULATIVA - PAGE #
 if selected2 == "Epeculativa":
