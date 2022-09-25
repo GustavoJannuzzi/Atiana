@@ -46,7 +46,7 @@ if selected2 == "Value-invest":
         
 
     with col2:
-       st.header("Quantamental - value investig")
+       st.header("Quantamental - value investing")
        st.image("imagens/value_invest.png")
 
 
