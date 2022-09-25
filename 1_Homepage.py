@@ -10,6 +10,7 @@ from bs4 import BeautifulSoup
 import yfinance as yf
 import streamlit as st
 import webbrowser
+from bokeh.models.widgets import Div
 
 
 ### MENU HORIZONTAL ###
