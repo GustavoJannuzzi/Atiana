@@ -34,7 +34,7 @@ if selected2 == "Value-invest":
        st.markdown("A Magic Formula consiste em um procedimento de escolha de ações que consiste em selecionar ativos com bons fundamentos econômicos e que estão sendo negociados a um preço baixo.")
        st.markdown("A formula consiste em gerar um ranking de ações com melhor ROIC e melhor EV/EBIT.")
        st.markdown("Veja mais sobre como a Magic Formula Funciona e quais ações ela selecionaria agora.")
-       st.buttom("Magic Formula")
+     # st.buttom("Magic Formula")
        st.write(f'''
             <a target="_self" href="https://www.gustavojannuzziportfolio.com/projects">
                 <button>
