@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 import yfinance as yf
 import streamlit as st
 import webbrowser
-
+from bokeh.models.widgets import Div
 
 ### MENU HORIZONTAL ###
 st.set_page_config(
@@ -37,10 +37,12 @@ if selected2 == "Value-invest":
        st.markdown("A formula consiste em gerar um ranking de ações com melhor ROIC e melhor EV/EBIT.")
        st.markdown("Veja mais sobre como a Magic Formula Funciona e quais ações ela selecionaria agora.")
        
-       mf_url = 'https://www.gustavojannuzziportfolio.com/projects'
-       if st.button("Magic Formula"):
-            webbrowser.open_new_tab(mf_url)
-
+       if st.button('Go to Streamlit'):
+           mf_url = "window.open('https://www.gustavojannuzziportfolio.com/projects')"
+           html = '<img src onerror="{}">'.format(mf_url)
+           div = Div(text=html)
+           st.bokeh_chart(div)
+        
         
 
     with col2:
