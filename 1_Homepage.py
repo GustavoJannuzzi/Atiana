@@ -25,9 +25,6 @@ selected2 = option_menu(None, ["Home", "Value-invest", "Epeculativa", 'Estudos']
     menu_icon="cast", default_index=0, orientation="horizontal")
 selected2
 
-st.button('clipboard2-data', on_click=style_button_row, kwargs={
-        'clicked_button_ix': 1, 'n_buttons': 4
-    })
 
 
 # HOME - PAGE #
@@ -36,7 +33,7 @@ if selected2 == "Home":
     st.subheader("Para Giant Steps Capital")
     st.markdown("Através dessa aplicação eu gostaria de demonstrar meu interesse em aprender e contribuir com esta gigante fábrica de teses.")
     st.markdown("Aqui apresento alguns de meus projetos desenvolvidos sempre buscando criatividade alida a um breve conhecimento técnico.")
-    st.button('Portfolio'
+    st.button('Portfolio')
     
     
     
