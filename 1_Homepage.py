@@ -11,6 +11,8 @@ import yfinance as yf
 import streamlit as st
 import webbrowser
 from bokeh.models.widgets import Div
+import streamlit.components.v1 as components
+
 
 
 ### MENU HORIZONTAL ###
@@ -48,7 +50,10 @@ if selected2 == "Value-invest":
            html = '<img src onerror="{}">'.format(mf_url)
            div = Div(text=html)
            st.bokeh_chart(div)
-        
+           st.write("Streamlit Docs Example iframe")
+           components.iframe("https://docs.streamlit.io/en/latest")
+           st.write("different iframe test")
+           components.iframe(src="http://smb-analytics-metabase.herokuapp.com/public/dashboard/afefddda-d5d4-43ed-83fd-307eab7ded3c", width=1285, height=1000, scrolling=True)
         
 
     with col2:
