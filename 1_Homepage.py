@@ -34,7 +34,7 @@ if selected2 == "Home":
     st.markdown("Aqui apresento alguns de meus projetos desenvolvidos sempre buscando criatividade alida a um breve conhecimento técnico.")
     
     st.write("Streamlit Docs Example iframe")
-    components.iframe("https://www.gustavojannuzziportfolio.com/", width=1285, height=1000, scrolling=True)
+    components.iframe("https://www.gustavojannuzziportfolio.com/", width=128, height=100, scrolling=True)
     
     
     
