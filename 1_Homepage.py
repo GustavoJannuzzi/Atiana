@@ -9,6 +9,8 @@ import requests
 from bs4 import BeautifulSoup
 import yfinance as yf
 import streamlit as st
+import webbrowser
+
 
 ### MENU HORIZONTAL ###
 st.set_page_config(
@@ -34,12 +36,10 @@ if selected2 == "Value-invest":
        st.markdown("A Magic Formula consiste em um procedimento de escolha de ações que consiste em selecionar ativos com bons fundamentos econômicos e que estão sendo negociados a um preço baixo.")
        st.markdown("A formula consiste em gerar um ranking de ações com melhor ROIC e melhor EV/EBIT.")
        st.markdown("Veja mais sobre como a Magic Formula Funciona e quais ações ela selecionaria agora.")
-       if st.button("Magic Formula"):
-           st.write(f'''
-                <a target="_self" href="https://www.gustavojannuzziportfolio.com/projects">
-                ''',
-                unsafe_allow_html=True
-            )
+       
+        mf_url="https://www.gustavojannuzziportfolio.com/projects"
+        if st.button("Magic Formula"):
+           webbrowser.open_new_tab(mf_url)
 
         
 
