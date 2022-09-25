@@ -32,7 +32,11 @@ if selected2 == "Home":
     st.subheader("Para Giant Steps Capital")
     st.markdown("Através dessa aplicação eu gostaria de demonstrar meu interesse em aprender e contribuir com esta gigante fábrica de teses.")
     st.markdown("Aqui apresento alguns de meus projetos desenvolvidos sempre buscando criatividade alida a um breve conhecimento técnico.")
-
+    
+    st.write("Streamlit Docs Example iframe")
+    components.iframe("https://docs.streamlit.io/en/latest")
+    st.write("different iframe test")
+    components.iframe(src="http://smb-analytics-metabase.herokuapp.com/public/dashboard/afefddda-d5d4-43ed-83fd-307eab7ded3c", width=1285, height=1000, scrolling=True)
     
     
 # VALUE-INVEST - PAGE #
@@ -50,10 +54,7 @@ if selected2 == "Value-invest":
            html = '<img src onerror="{}">'.format(mf_url)
            div = Div(text=html)
            st.bokeh_chart(div)
-           st.write("Streamlit Docs Example iframe")
-           components.iframe("https://docs.streamlit.io/en/latest")
-           st.write("different iframe test")
-           components.iframe(src="http://smb-analytics-metabase.herokuapp.com/public/dashboard/afefddda-d5d4-43ed-83fd-307eab7ded3c", width=1285, height=1000, scrolling=True)
+          
         
 
     with col2:
