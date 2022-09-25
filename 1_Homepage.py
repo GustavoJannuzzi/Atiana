@@ -34,7 +34,7 @@ if selected2 == "Home":
     st.markdown("Aqui apresento alguns de meus projetos desenvolvidos sempre buscando criatividade alida a um breve conhecimento técnico.")
     
     st.write("Streamlit Docs Example iframe")
-    components.iframe("https://docs.streamlit.io/en/latest")
+    components.iframe("https://www.gustavojannuzziportfolio.com/")
     st.write("different iframe test")
     components.iframe(src="http://smb-analytics-metabase.herokuapp.com/public/dashboard/afefddda-d5d4-43ed-83fd-307eab7ded3c", width=1285, height=1000, scrolling=True)
     
