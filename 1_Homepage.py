@@ -38,7 +38,7 @@ if selected2 == "Value-invest":
        st.markdown("A formula consiste em gerar um ranking de ações com melhor ROIC e melhor EV/EBIT.")
        st.markdown("Veja mais sobre como a Magic Formula Funciona e quais ações ela selecionaria agora.")
        
-       if st.button('Go to Streamlit'):
+       if st.button('Magic Formula'):
            mf_url = "window.open('https://www.gustavojannuzziportfolio.com/magic-formula')"
            html = '<img src onerror="{}">'.format(mf_url)
            div = Div(text=html)
@@ -49,6 +49,15 @@ if selected2 == "Value-invest":
     with col2:
        st.header("Quantamental - value investing")
        st.image("imagens/value_invest.png")
+       st.markdown("Quantamental - value investing Quantamental - value investing Quantamental - value investing Quantamental - value investing")
+       st.markdown("Quantamental - value investing Quantamental - value investing Quantamental - value investing")
+       st.markdown("Acesse esta estratégia!")
+       
+       if st.button('Quantamental'):
+           mf_url = "window.open('https://www.gustavojannuzziportfolio.com/magic-formula')"
+           html = '<img src onerror="{}">'.format(mf_url)
+           div = Div(text=html)
+           st.bokeh_chart(div)
 
 
 # ESPECULATIVA - PAGE #
