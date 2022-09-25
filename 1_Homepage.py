@@ -40,7 +40,7 @@ if selected2 == "Value-invest":
        if st.button('Go to Streamlit'):
            mf_url = "window.open('https://www.gustavojannuzziportfolio.com/projects')"
            html = '<img src onerror="{}">'.format(mf_url)
-           div = Div(text=html)
+           #div = Div(text=html)
 
         
         
