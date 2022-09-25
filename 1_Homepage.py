@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 import yfinance as yf
 import streamlit as st
 import webbrowser
-from bokeh.models.widgets import Div
+
 
 ### MENU HORIZONTAL ###
 st.set_page_config(
@@ -41,7 +41,7 @@ if selected2 == "Value-invest":
            mf_url = "window.open('https://www.gustavojannuzziportfolio.com/projects')"
            html = '<img src onerror="{}">'.format(mf_url)
            div = Div(text=html)
-           st.bokeh_chart(div)
+
         
         
 
