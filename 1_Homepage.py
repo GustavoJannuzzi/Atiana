@@ -34,16 +34,12 @@ if selected2 == "Value-invest":
        st.markdown("A Magic Formula consiste em um procedimento de escolha de ações que consiste em selecionar ativos com bons fundamentos econômicos e que estão sendo negociados a um preço baixo.")
        st.markdown("A formula consiste em gerar um ranking de ações com melhor ROIC e melhor EV/EBIT.")
        st.markdown("Veja mais sobre como a Magic Formula Funciona e quais ações ela selecionaria agora.")
-     # st.buttom("Magic Formula")
-       st.write(f'''
-            <a target="_self" href="https://www.gustavojannuzziportfolio.com/projects">
-                <button>
-                    Please login via Google
-                </button>
-            </a>
-            ''',
-            unsafe_allow_html=True
-        )
+       if st.button("Magic Formula"):
+           st.write(f'''
+                <a target="_self" href="https://www.gustavojannuzziportfolio.com/projects">
+                ''',
+                unsafe_allow_html=True
+            )
 
         
 
@@ -67,6 +63,6 @@ if selected2 == "Epeculativa":
        st.header("L.R. 50 ações do IBOV")
        st.image("imagens/top50_ibov_lin_reg.png")
     
-# VALUE-INVEST - PAGE #
+# estudos - PAGE #
 if selected2 == "Estudos":
     st.title('Estudos')
