@@ -33,12 +33,11 @@ if selected2 == "Home":
     st.subheader("Para Giant Steps Capital")
     st.markdown("Através dessa aplicação eu gostaria de demonstrar meu interesse em aprender e contribuir com esta gigante fábrica de teses.")
     st.markdown("Aqui apresento alguns de meus projetos desenvolvidos sempre buscando criatividade alida a um breve conhecimento técnico.")
-    st.button('Portfolio')
-       if st.button('Portfolio'):
-           mf_url = "window.open('https://www.gustavojannuzziportfolio.com/')"
-           html = '<img src onerror="{}">'.format(mf_url)
-           div = Div(text=html)
-           st.bokeh_chart(div)
+    if st.button('Portfolio'):
+        mf_url = "window.open('https://www.gustavojannuzziportfolio.com/')"
+        html = '<img src onerror="{}">'.format(mf_url)
+        div = Div(text=html)
+        st.bokeh_chart(div)
     
 # VALUE-INVEST - PAGE #
 if selected2 == "Value-invest":
