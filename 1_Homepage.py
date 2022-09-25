@@ -37,9 +37,9 @@ if selected2 == "Value-invest":
        st.markdown("A formula consiste em gerar um ranking de ações com melhor ROIC e melhor EV/EBIT.")
        st.markdown("Veja mais sobre como a Magic Formula Funciona e quais ações ela selecionaria agora.")
        
-        mf_url="https://www.gustavojannuzziportfolio.com/projects"
-        if st.button("Magic Formula"):
-           webbrowser.open_new_tab(mf_url)
+       mf_url = 'https://www.gustavojannuzziportfolio.com/projects'
+       if st.button("Magic Formula"):
+            webbrowser.open_new_tab(mf_url)
 
         
 
