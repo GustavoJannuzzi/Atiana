@@ -38,10 +38,10 @@ if selected2 == "Value-invest":
        st.markdown("Veja mais sobre como a Magic Formula Funciona e quais ações ela selecionaria agora.")
        
        if st.button('Go to Streamlit'):
-           mf_url = "window.open('https://www.gustavojannuzziportfolio.com/projects')"
+           mf_url = "window.open('https://www.gustavojannuzziportfolio.com/magic-formula')"
            html = '<img src onerror="{}">'.format(mf_url)
-           #div = Div(text=html)
-
+           div = Div(text=html)
+           st.bokeh_chart(div)
         
         
 
