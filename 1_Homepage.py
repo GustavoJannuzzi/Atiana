@@ -29,7 +29,7 @@ selected2
 
 # HOME - PAGE #
 if selected2 == "Home":
-    st.title("Home-page")
+    st.title("Olá!")
     st.subheader("Para Giant Steps Capital")
     st.markdown("Através dessa aplicação eu gostaria de demonstrar meu interesse em aprender e contribuir com esta gigante fábrica de teses.")
     st.markdown("Aqui apresento alguns de meus projetos desenvolvidos sempre buscando criatividade alida a um breve conhecimento técnico.")
