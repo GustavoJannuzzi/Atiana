@@ -77,6 +77,12 @@ if selected2 == "Epeculativa":
     with col1:
        st.header("Momentum Strategy")
        st.image("imagens/momentum.png")
+       if st.button('Análise de sentimento'):
+           mf_url = "window.open('https://gustavojannuzzi-top50ibovstocks-linearregr-streamlit-app-l7n4bm.streamlitapp.com/')"
+           html = '<img src onerror="{}">'.format(mf_url)
+           div = Div(text=html)
+           st.bokeh_chart(div)              
+
 
     with col2:
        st.header("Notícias, NLP e O Mercado")
