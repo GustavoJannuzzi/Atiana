@@ -77,7 +77,8 @@ if selected2 == "Epeculativa":
     with col1:
        st.header("Momentum Strategy")
        st.image("imagens/momentum.png")
-       if st.button('Análise de sentimento'):
+       if st.button('Momentum'):
+           #Alterar URL
            mf_url = "window.open('https://gustavojannuzzi-top50ibovstocks-linearregr-streamlit-app-l7n4bm.streamlitapp.com/')"
            html = '<img src onerror="{}">'.format(mf_url)
            div = Div(text=html)
@@ -91,7 +92,6 @@ if selected2 == "Epeculativa":
        st.markdown('Benjamin Graham, autor do Investidor Inteligente, introduz o "Sr. Mercado" como um persongem muito racional a longo prazo, porém no curto prazo ele tende a ser muito sensível e volátil com divulgação de notícias.')
        st.markdown('Com SentimentIntensityAnalyzer foi possível criar uma breve visualização dos sentimentos do "Sr. Mercado" no momento.')   
        st.markdown("Acesse esta estratégia!")
-       
        if st.button('Análise de sentimento'):
            mf_url = "window.open('https://gustavojannuzzi-giant-news-sentiment--sentiment-analysis-bq2cy8.streamlitapp.com/')"
            html = '<img src onerror="{}">'.format(mf_url)
@@ -101,6 +101,11 @@ if selected2 == "Epeculativa":
     with col3:
        st.header("L.R. 50 ações do IBOV")
        st.image("imagens/top50_ibov_lin_reg.png")
+       if st.button('Momentum'):
+           mf_url = "window.open('https://gustavojannuzzi-top50ibovstocks-linearregr-streamlit-app-l7n4bm.streamlitapp.com/')"
+           html = '<img src onerror="{}">'.format(mf_url)
+           div = Div(text=html)
+           st.bokeh_chart(div)  
     
 # estudos - PAGE #
 if selected2 == "Estudos":
