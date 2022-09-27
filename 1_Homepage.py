@@ -81,6 +81,15 @@ if selected2 == "Epeculativa":
     with col2:
        st.header("Notícias, NLP e O Mercado")
        st.image("imagens/news_sent_anal.png")
+       st.markdown("Quantamental - value investing Quantamental - value investing Quantamental - value investing Quantamental - value investing")
+       st.markdown("Quantamental - value investing Quantamental - value investing Quantamental - value investing")
+       st.markdown("Acesse esta estratégia!")
+       
+       if st.button('Análise de sentimento'):
+           mf_url = "window.open('https://gustavojannuzzi-giant-news-sentiment--sentiment-analysis-bq2cy8.streamlitapp.com/')"
+           html = '<img src onerror="{}">'.format(mf_url)
+           div = Div(text=html)
+           st.bokeh_chart(div)        
 
     with col3:
        st.header("L.R. 50 ações do IBOV")
