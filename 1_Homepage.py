@@ -88,7 +88,6 @@ if selected2 == "Epeculativa":
     with col2:
        st.header("Notícias, NLP e O Mercado")
        st.image("imagens/news_sent_anal.png")
-       st.markdown("NLTK é uma biblioteca de linguagem natural que permite fácil implementação e utilização.")
        st.markdown('Benjamin Graham, autor do Investidor Inteligente, introduz o "Sr. Mercado" como um persongem muito racional a longo prazo, porém no curto prazo ele tende a ser muito sensível e volátil com divulgação de notícias.')
        st.markdown('Com SentimentIntensityAnalyzer foi possível criar uma breve visualização dos sentimentos do "Sr. Mercado" no momento.')   
        st.markdown("Acesse esta estratégia!")
