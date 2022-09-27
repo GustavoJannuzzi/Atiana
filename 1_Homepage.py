@@ -101,7 +101,7 @@ if selected2 == "Epeculativa":
     with col3:
        st.header("L.R. 50 ações do IBOV")
        st.image("imagens/top50_ibov_lin_reg.png")
-       if st.button('Momentum'):
+       if st.button('Ver valor de fechamento'):
            mf_url = "window.open('https://gustavojannuzzi-top50ibovstocks-linearregr-streamlit-app-l7n4bm.streamlitapp.com/')"
            html = '<img src onerror="{}">'.format(mf_url)
            div = Div(text=html)
