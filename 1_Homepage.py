@@ -33,12 +33,26 @@ if selected2 == "Home":
     st.subheader("Para Giant Steps Capital")
     st.markdown("Através dessa aplicação eu gostaria de demonstrar meu interesse em aprender e contribuir com esta gigante fábrica de teses.")
     st.markdown("Aqui apresento alguns de meus projetos desenvolvidos sempre buscando criatividade alida a um breve conhecimento técnico.")
-    if st.button('Portfolio'):
+    st.markdown("Atualmente trabalho na Accenture como junior Application Developer. No início da minha carreira nesta empresa, passei por vários desafios, aprendi novas tecnologias, contribui para o desenvolvimento de projetos em empresas de telecomunicações e tive a oportunidade de me desenvolver pessoalmente com uma cultura que abraça a diversidade.")
+    st.markdown("Apesar de morar em Curitiba-PR, teria o enorme prazer de passar minhas férias contribuindo e desenvolvendo minhas habilidades em um dos melhores fundos do Brasil. ")
+    st.markdown("Aprecio a consideração de analisar este portfolio que fiz especialmente para esta oportunidade Gigante de summer job.")
+    st.markdown("Os projetos estão separados em estratégias fundamentalisata(Value-invest), Especulativa e  Estudo.")
+    st.markdown("Caso se interessem em acessar, tenho um portfólio pessoal de Data Science/Analysis. ")
+    
+    if st.button('Acessar Portfólio'):
         mf_url = "window.open('https://www.gustavojannuzziportfolio.com/')"
         html = '<img src onerror="{}">'.format(mf_url)
         div = Div(text=html)
         st.bokeh_chart(div)
-    
+        
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.write("LinkedIn')
+    with col2:
+        st.write("Medium')
+    with col2:
+        st.write("Medium')
+                 
 # VALUE-INVEST - PAGE #
 if selected2 == "Value-invest":
     col1, col2 = st.columns(2)
