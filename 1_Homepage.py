@@ -45,13 +45,16 @@ if selected2 == "Home":
         div = Div(text=html)
         st.bokeh_chart(div)
         
+    st.markdown("") #espaços para rodapé
+    st.markdown("") #espaços para rodapé
+    
     col1, col2, col3 = st.columns(3)
     with col1:
         st.write("LinkedIn")
     with col2:
         st.write("Medium")
     with col3:
-        st.write("Medium")
+        st.write("Telefone: (45)99123-2009")
                  
 # VALUE-INVEST - PAGE #
 if selected2 == "Value-invest":
