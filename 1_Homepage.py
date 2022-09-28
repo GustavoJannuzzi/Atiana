@@ -50,7 +50,7 @@ if selected2 == "Home":
         st.write("LinkedIn")
     with col2:
         st.write("Medium")
-    with col2:
+    with col3:
         st.write("Medium")
                  
 # VALUE-INVEST - PAGE #
