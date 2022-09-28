@@ -47,11 +47,11 @@ if selected2 == "Home":
         
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.write("LinkedIn')
+        st.write("LinkedIn")
     with col2:
-        st.write("Medium')
+        st.write("Medium")
     with col2:
-        st.write("Medium')
+        st.write("Medium")
                  
 # VALUE-INVEST - PAGE #
 if selected2 == "Value-invest":
