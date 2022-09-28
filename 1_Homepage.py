@@ -50,9 +50,9 @@ if selected2 == "Home":
     
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.write("LinkedIn")
+        st.write("[LinkedIn](https://www.linkedin.com/in/gustavo-jannuzzi-a74901196/)")
     with col2:
-        st.write("Medium")
+        st.write("[Medium](https://medium.com/@gustavojannuzzi)")
     with col3:
         st.write("Telefone: (45)99123-2009")
                  
