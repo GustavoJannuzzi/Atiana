@@ -126,7 +126,7 @@ if selected2 == "Epeculativa":
 # estudos - PAGE #
 if selected2 == "Estudos":
     st.title('Estudos')
-    st.image("imagens/estudo.png")
+    st.image("imagens/estudo.jpg")
     st.markdown("Após escolher quais ativos adotar na carteira surge a pergunta de como combinar esses ativos pra maximizar a relação risco retorno, ou Sharp.")
     
     
