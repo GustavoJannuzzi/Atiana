@@ -120,6 +120,8 @@ if selected2 == "Epeculativa":
     with col3:
        st.header("L.R. 50 ações do IBOV")
        st.image("imagens/top50_ibov_lin_reg.png")
+       st.markdown('Com uma regressão linear aplicada a alguns fatores e movimentações no valore das ações do mercado, foi possível prevere um valor aproximado de fechamento dos ativos.') 
+       st.markdown('O Web-app filtra as 50 ações com maior participação no Índice Bovespa, apresenta as estatísticas do modelo gerado para cada e as informações sobre cada ativo')   
        if st.button('Ver valor de fechamento'):
            mf_url = "window.open('https://gustavojannuzzi-top50ibovstocks-linearregr-streamlit-app-l7n4bm.streamlitapp.com/')"
            html = '<img src onerror="{}">'.format(mf_url)
