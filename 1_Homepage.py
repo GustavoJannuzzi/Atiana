@@ -128,5 +128,5 @@ if selected2 == "Estudos":
     st.title('Estudos')
     st.image("imagens/estudo.jpg")
     st.markdown("Após escolher quais ativos adotar na carteira surge a pergunta de como combinar esses ativos pra maximizar a relação risco retorno, ou Sharp.")
-    
+    st.video("https://www.youtube.com/watch?v=leSqma5s7nE&t=173s")
     
