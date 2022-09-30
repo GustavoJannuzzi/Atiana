@@ -94,14 +94,16 @@ if selected2 == "Epeculativa":
     with col1:
        st.header("Momentum Strategy")
        st.image("imagens/momentum.png")
+       st.markdown(" Momentum é um sistema de compra de ações ou outros títulos que tiveram retornos elevados nos últimos três a doze meses e de venda daqueles que tiveram retornos insatisfatórios no mesmo período.")
+       st.markdown("Neste projeto foram realizadas duas estratéggias de momentum gernado uma carteira dos 50 melhores ativos no S&P 500")
        if st.button('Momentum'):
            #Alterar URL
-           mf_url = "window.open('https://gustavojannuzzi-top50ibovstocks-linearregr-streamlit-app-l7n4bm.streamlitapp.com/')"
+           mf_url = "window.open('https://drive.google.com/file/d/1-Dp2ZdnLGq84w-z8NiaP1KlJJzjTAGL-/view?usp=sharing')"
            html = '<img src onerror="{}">'.format(mf_url)
            div = Div(text=html)
            st.bokeh_chart(div)              
 
-
+        
     with col2:
        st.header("Notícias, NLP e O Mercado")
        st.image("imagens/news_sent_anal.png")
