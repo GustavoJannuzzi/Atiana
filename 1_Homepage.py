@@ -96,9 +96,10 @@ if selected2 == "Epeculativa":
        st.image("imagens/momentum.png")
        st.markdown(" Momentum é um sistema de compra de ações ou outros títulos que tiveram retornos elevados nos últimos três a doze meses e de venda daqueles que tiveram retornos insatisfatórios no mesmo período.")
        st.markdown("Neste projeto foram realizadas duas estratéggias de momentum gernado uma carteira dos 50 melhores ativos no S&P 500")
+       st.markdown("Acesse o notebook no Google colab!")
        if st.button('Momentum'):
            #Alterar URL
-           mf_url = "window.open('https://drive.google.com/file/d/1-Dp2ZdnLGq84w-z8NiaP1KlJJzjTAGL-/view?usp=sharing')"
+           mf_url = "window.open('https://colab.research.google.com/drive/1-Dp2ZdnLGq84w-z8NiaP1KlJJzjTAGL-')"
            html = '<img src onerror="{}">'.format(mf_url)
            div = Div(text=html)
            st.bokeh_chart(div)              
