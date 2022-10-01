@@ -134,7 +134,8 @@ if selected2 == "Estudos":
     st.image("imagens/estudo.jpg")
     st.markdown("Após escolher quais ativos adotar na carteira surge a pergunta de como combinar esses ativos pra maximizar a relação risco retorno, ou Sharp.")
     st.subheader("Princípio 1 - Inversamente proporcional á correlação")
-    st.markdown("Após e")
+    st.markdown("Toda alocação em determinado ativo ou estratégia deveria ser inversamente proporcional á correlação que uma estratégia tem, com a outra estratégia que possuo na carteira. Ativos ou estratégias descorrelacionados trazem diversificação para a carteira.")
+    st.markdown("Se a correlação de um ativo é muito baixa ou negativa com outro, a alocação deve ser maior para fins de diversificar a carteira.")   
     st.subheader("Princípio 2 - Inversamente proporcional á volatilidade")
     st.markdown("Após e")
 
