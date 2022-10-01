@@ -82,7 +82,7 @@ if selected2 == "Value-invest":
        st.markdown("Acesse esta estratégia!")
        
        if st.button('Quantamental'):
-           mf_url = "window.open('https://www.gustavojannuzziportfolio.com/magic-formula')"
+           mf_url = "window.open('https://gustavojannuzzi-quantamental-app-quantamental-app-3q76yt.streamlitapp.com/')"
            html = '<img src onerror="{}">'.format(mf_url)
            div = Div(text=html)
            st.bokeh_chart(div)
