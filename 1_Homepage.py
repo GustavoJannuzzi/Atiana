@@ -130,7 +130,12 @@ if selected2 == "Epeculativa":
     
 # estudos - PAGE #
 if selected2 == "Estudos":
-    st.title('Estudos')
+    st.title('Alocando em carteiras especulativas e fundamentalistas')
     st.image("imagens/estudo.jpg")
     st.markdown("Após escolher quais ativos adotar na carteira surge a pergunta de como combinar esses ativos pra maximizar a relação risco retorno, ou Sharp.")
+    st.subheader("Princípio 1 - Inversamente proporcional á correlação")
+    st.markdown("Após e")
+    st.subheader("Princípio 2 - Inversamente proporcional á volatilidade")
+    st.markdown("Após e")
 
+    
