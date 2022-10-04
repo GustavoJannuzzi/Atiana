@@ -156,7 +156,7 @@ if selected2 == "Estudos":
     st.markdown('No cenário de uma carteira com RS 8 Bilhões sob gestão, como a Giant Steps Capital, seriam alocados RS 2.254.826.254.826,25 na carteira da Magic Formula e RS 5.745.173.600.000,00 na carteira gerada pelo modelo Momentum Strategy.')
     st.markdown("")
     st.markdown("")
-    st.markdown("Referências:")
+    st.markdown("*Referências:*")
     st.write("[Volatilidade GARCH(1,1) para carteira com N ativos](https://www.linkedin.com/pulse/volatilidade-garch11-para-carteira-com-n-ativos-python-r-mota/?originalSubdomain=pt)")
     st.write("[Correlação entre Ativos](https://opencodecom.net/post/2021-09-01-correlacao-entre-ativos-no-python/#:~:text=Quando o coeficiente entre duas,as variávies são correlacionáveis negativamente.)")
     
