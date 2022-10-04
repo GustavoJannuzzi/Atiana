@@ -99,7 +99,7 @@ if selected2 == "Epeculativa":
        st.markdown("Acesse o notebook no Google colab!")
        if st.button('Momentum'):
            #Alterar URL
-           mf_url = "window.open('https://colab.research.google.com/drive/1-Dp2ZdnLGq84w-z8NiaP1KlJJzjTAGL-')"
+           mf_url = "window.open('https://colab.research.google.com/drive/1HXg5KOcwrAimwmAx1wge8VSi81LT1JNX#scrollTo=QXDyPofhMP-p')"
            html = '<img src onerror="{}">'.format(mf_url)
            div = Div(text=html)
            st.bokeh_chart(div)              
@@ -154,7 +154,8 @@ if selected2 == "Estudos":
     st.markdown("Desta forma, considerando a correlação de 0.235 das carteiras com seus retornos históricos, é possível realizar alocação de forma diversificada.")
     st.markdown("A carteira Momentum Strategy apresentou uma volatilidade 28,1853% menor do que a volatilidade da Magic Formula. Recapitulando, a volatilidade da Magic Formula foi de 2,59 e Momentum foi de 1,86. ")
     st.markdown('No cenário de uma carteira com RS 8 Bilhões sob gestão, como a Giant Steps Capital, seriam alocados RS 2.254.826.254.826,25 na carteira da Magic Formula e RS 5.745.173.600.000,00 na carteira gerada pelo modelo Momentum Strategy.')
-    st.markdown("")
+    st.markdown("O notebook com os modelos e as avaliações estatísticas estão disponpiveis abaixo:")
+    ### colocar notebook
     st.markdown("")
     st.markdown("**Referências:**")
     st.write("[Volatilidade GARCH(1,1) para carteira com N ativos](https://www.linkedin.com/pulse/volatilidade-garch11-para-carteira-com-n-ativos-python-r-mota/?originalSubdomain=pt)")
