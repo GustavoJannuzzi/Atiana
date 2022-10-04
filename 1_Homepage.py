@@ -159,6 +159,8 @@ if selected2 == "Estudos":
     st.markdown("")
     st.markdown("A Correlação entre as duas foi calculada através dos preços históricos dos ativos correspondentes a cada carteira no período de 2 anos. Obviamente, produtos do passado não garantia de ganhos futuros, porém neste caso usei dados históricos para obter as métricas estatísticas favorecendo a alocação na carteira.")
     st.image('imagens/correlacao.png')
+    correlacao = pd.read_csv('correlacao careteiras.csv')
+    correlacao 
     st.markdown("Desta forma, considerando a correlação de 0.235 das carteiras com seus retornos históricos, é possível realizar alocação de forma diversificada.")
     st.markdown("A carteira Momentum Strategy apresentou uma volatilidade 28,1853% menor do que a volatilidade da Magic Formula. Recapitulando, a volatilidade da Magic Formula foi de 2,59 e Momentum foi de 1,86. ")
     st.markdown('No cenário de uma carteira com RS 8 Bilhões sob gestão, como a Giant Steps Capital, seriam alocados RS 2.254.826.254.826,25 na carteira da Magic Formula e RS 5.745.173.600.000,00 na carteira gerada pelo modelo Momentum Strategy.')
