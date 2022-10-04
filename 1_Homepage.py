@@ -143,11 +143,11 @@ if selected2 == "Estudos":
     st.markdown("A carteia gerada com a Magic Formula, aplicou suas métricas de avaliação ao mercado brasileiro e gerou os seguintes ativos: ")
     ###### colocar a tabela MF aqui 
     st.markdown("Sua volatilidade média EWMA em uma janela de 252 dias foi de 2,59%. O gráfico apresenta a volatilidade de cada ativo integrante na carteira.")
-    ###### st.image('imagens/volatilidade_mf.png')
+    st.image('imagens/volatilidade_mf.png')
     st.markdown("")
     st.markdown("Já a carteira criada com Momentum Strategy na bolsa americana teve uma volatilidade EWMA média de 1,86% no período de 252 dias, sendo composta pelos seguintes ativos:")
     ###### colocar a tabelo aqui
-    ###### ('imagens/volatlidade_momentum.png')
+    st.image('imagens/volatlidade_momentum.png')
     st.markdown("")
     st.markdown("A Correlação entre as duas foi calculada através dos preços históricos dos ativos correspondentes a cada carteira no período de 2 anos. Obviamente, produtos do passado não garantia de ganhos futuros, porém neste caso usei dados históricos para obter as métricas estatísticas favorecendo a alocação na carteira.")
     st.image('imagens/correlacao.png')
