@@ -141,8 +141,6 @@ if selected2 == "Estudos":
     st.markdown("")
     st.markdown("Neste estudo de alocação estou usando duas carteiras que foram apresentadas neste web-app, a carteira da Magic Formula do Joel Greenblatt e a uma carteira criada com Momentum Strategy.")
     st.markdown("A carteia gerada com a Magic Formula, aplicou suas métricas de avaliação ao mercado brasileiro e gerou os seguintes ativos: ")
-    ###### colocar a tabela MF aqui 
-    #stockSectorDF = 'https://raw.githubusercontent.com/GustavoJannuzzi/JGMagicFormulaB3/main/StockSector.csv'
     MagicFormula = pd.read_csv('carteira_magicformula.csv')
     MagicFormula
     
@@ -151,7 +149,6 @@ if selected2 == "Estudos":
     st.markdown("")
     st.markdown("")
     st.markdown("Já a carteira criada com Momentum Strategy na bolsa americana teve uma volatilidade EWMA média de 1,86% no período de 252 dias, sendo composta pelos seguintes ativos:")
-    ###### colocar a tabelo aqui
     Momentum = pd.read_csv('carteira_momentum.csv')
     Momentum    
     
@@ -159,17 +156,17 @@ if selected2 == "Estudos":
     st.markdown("")
     st.markdown("A Correlação entre as duas foi calculada através dos preços históricos dos ativos correspondentes a cada carteira no período de 2 anos. Obviamente, produtos do passado não garantia de ganhos futuros, porém neste caso usei dados históricos para obter as métricas estatísticas favorecendo a alocação na carteira.")
     st.image('imagens/correlacao.png')
-    correlacao = pd.read_csv('correlacao careteiras.csv')
-    correlacao 
     st.markdown("Desta forma, considerando a correlação de 0.235 das carteiras com seus retornos históricos, é possível realizar alocação de forma diversificada.")
     st.markdown("A carteira Momentum Strategy apresentou uma volatilidade 28,1853% menor do que a volatilidade da Magic Formula. Recapitulando, a volatilidade da Magic Formula foi de 2,59 e Momentum foi de 1,86. ")
     st.markdown('No cenário de uma carteira com RS 8 Bilhões sob gestão, como a Giant Steps Capital, seriam alocados RS 2.254.826.254.826,25 na carteira da Magic Formula e RS 5.745.173.600.000,00 na carteira gerada pelo modelo Momentum Strategy.')
     st.markdown("O notebook com os modelos e as avaliações estatísticas estão disponpiveis abaixo:")
-    ### colocar notebook
+    st.write("[Jupyter Notebook](https://github.com/GustavoJannuzzi/Atiana/blob/main/Estudo%20de%20alocacao%20de%20estrat%C3%A9gias.ipynb)")
+    
+    st.markdown("")
     st.markdown("")
     st.markdown("**Referências:**")
     st.write("[Volatilidade GARCH(1,1) para carteira com N ativos](https://www.linkedin.com/pulse/volatilidade-garch11-para-carteira-com-n-ativos-python-r-mota/?originalSubdomain=pt)")
-    st.write("[Correlação entre Ativos](https://opencodecom.net/post/2021-09-01-correlacao-entre-ativos-no-python/#:~:text=Quando o coeficiente entre duas,as variávies são correlacionáveis negativamente.)")
+    st.write("[Correlação entre Ativos](https://opencodecom.net/post/2021-09-01-correlacao-entre-ativos-no-python/#:~:text=Quando o coeficiente entre duas,as variávies são correlacionáveis negativamente)")
     
     
     
