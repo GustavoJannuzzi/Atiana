@@ -142,11 +142,19 @@ if selected2 == "Estudos":
     st.markdown("Neste estudo de alocação estou usando duas carteiras que foram apresentadas neste web-app, a carteira da Magic Formula do Joel Greenblatt e a uma carteira criada com Momentum Strategy.")
     st.markdown("A carteia gerada com a Magic Formula, aplicou suas métricas de avaliação ao mercado brasileiro e gerou os seguintes ativos: ")
     ###### colocar a tabela MF aqui 
+    #stockSectorDF = 'https://raw.githubusercontent.com/GustavoJannuzzi/JGMagicFormulaB3/main/StockSector.csv'
+    MagicFormula = pd.read_csv('carteira_magicformula.csv')
+    MagicFormula
+    
     st.markdown("Sua volatilidade média EWMA em uma janela de 252 dias foi de 2,59%. O gráfico apresenta a volatilidade de cada ativo integrante na carteira.")
     st.image('imagens/volatilidade_mf.png')
     st.markdown("")
+    st.markdown("")
     st.markdown("Já a carteira criada com Momentum Strategy na bolsa americana teve uma volatilidade EWMA média de 1,86% no período de 252 dias, sendo composta pelos seguintes ativos:")
     ###### colocar a tabelo aqui
+    Momentum = pd.read_csv('carteira_momentum.csv')
+    Momentum    
+    
     st.image('imagens/volatlidade_momentum.png')
     st.markdown("")
     st.markdown("A Correlação entre as duas foi calculada através dos preços históricos dos ativos correspondentes a cada carteira no período de 2 anos. Obviamente, produtos do passado não garantia de ganhos futuros, porém neste caso usei dados históricos para obter as métricas estatísticas favorecendo a alocação na carteira.")
