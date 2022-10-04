@@ -138,5 +138,30 @@ if selected2 == "Estudos":
     st.markdown("Se a correlação de um ativo é muito baixa ou negativa com outro, a alocação deve ser maior para fins de diversificar a carteira.")   
     st.subheader("Princípio 2 - Inversamente proporcional á volatilidade")
     st.markdown("Após e")
+    st.markdown("")
+    st.markdown("Neste estudo de alocação estou usando duas carteiras que foram apresentadas neste web-app, a carteira da Magic Formula do Joel Greenblatt e a uma carteira criada com Momentum Strategy.")
+    st.markdown("A carteia gerada com a Magic Formula, aplicou suas métricas de avaliação ao mercado brasileiro e gerou os seguintes ativos: ")
+    ###### colocar a tabela MF aqui 
+    st.markdown("Sua volatilidade média EWMA em uma janela de 252 dias foi de 2,59%. O gráfico apresenta a volatilidade de cada ativo integrante na carteira.")
+    ###### st.image('imagens/volatilidade_mf.png')
+    st.markdown("")
+    st.markdown("Já a carteira criada com Momentum Strategy na bolsa americana teve uma volatilidade EWMA média de 1,86% no período de 252 dias, sendo composta pelos seguintes ativos:")
+    ###### colocar a tabelo aqui
+    ###### ('imagens/volatlidade_momentum.png')
+    st.markdown("")
+    st.markdown("A Correlação entre as duas foi calculada através dos preços históricos dos ativos correspondentes a cada carteira no período de 2 anos. Obviamente, produtos do passado não garantia de ganhos futuros, porém neste caso usei dados históricos para obter as métricas estatísticas favorecendo a alocação na carteira.")
+    st.image('imagens/correlacao.png')
+    st.markdown("Desta forma, considerando a correlação de 0.235 das carteiras com seus retornos históricos, é possível realizar alocação de forma diversificada.")
+    st.markdown("A carteira Momentum Strategy apresentou uma volatilidade 28,1853% menor do que a volatilidade da Magic Formula. Recapitulando, a volatilidade da Magic Formula foi de 2,59 e Momentum foi de 1,86. ")
+    st.markdown("No cenário de uma carteira com R$ 8 Bilhões sob gestão, como a Giant Steps Capital, seriam alocados R$ 2.254.826.254.826,25 na carteira da Magic Formula e  R$ R$ 5.745.173.600.000,00 na carteira gerada pelo modelo Momentum Strategy.")
+    st.markdown("")
+    st.markdown("")
+    st.markdown("Referências:")
+    st.write("[Volatilidade GARCH(1,1) para carteira com N ativos](https://www.linkedin.com/pulse/volatilidade-garch11-para-carteira-com-n-ativos-python-r-mota/?originalSubdomain=pt)")
+    st.write("[Correlação entre Ativos](https://opencodecom.net/post/2021-09-01-correlacao-entre-ativos-no-python/#:~:text=Quando o coeficiente entre duas,as variávies são correlacionáveis negativamente.)")
+    
+    
+    
+    
 
     
