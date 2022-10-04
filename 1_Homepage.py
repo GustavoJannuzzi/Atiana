@@ -36,7 +36,7 @@ if selected2 == "Home":
     st.markdown("Atualmente trabalho na Accenture como junior Application Developer. No início da minha carreira nesta empresa, passei por vários desafios, aprendi novas tecnologias, contribui para o desenvolvimento de projetos em empresas de telecomunicações e tive a oportunidade de me desenvolver pessoalmente com uma cultura que abraça a diversidade.")
     st.markdown("Apesar de morar em Curitiba-PR, teria o enorme prazer de passar minhas férias contribuindo e desenvolvendo minhas habilidades em um dos melhores fundos do Brasil. ")
     st.markdown("Aprecio a consideração de analisar este portfolio que fiz especialmente para esta oportunidade Gigante de summer job.")
-    st.markdown("Os projetos estão separados em estratégias fundamentalisata(Value-invest), Especulativa e  Estudo.")
+    st.markdown("Os projetos estão separados em estratégias fundamentalista (Value-invest), Especulativa e  Estudo.")
     st.markdown("Caso se interessem em acessar, tenho um portfólio pessoal de Data Science/Analysis. ")
     
     if st.button('Acessar Portfólio'):
