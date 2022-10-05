@@ -77,8 +77,7 @@ if selected2 == "Value-invest":
     with col2:
        st.header("Quantamental - value investing")
        st.image("imagens/value_invest.png")
-       st.markdown("Quantamental - value investing Quantamental - value investing Quantamental - value investing Quantamental - value investing")
-       st.markdown("Quantamental - value investing Quantamental - value investing Quantamental - value investing")
+       st.markdown("Investidores normalmente usam uma cesta composta de métricas de avaliação para construir estratégias de valor quantitativas robustas. Nesta estratégia, foram filtradas as ações com os percentis mais baixos nas métricas:P/L, P/VBA ou P/B,  PSR  e EV/EBITDA.")
        st.markdown("Acesse esta estratégia!")
        
        if st.button('Quantamental'):
